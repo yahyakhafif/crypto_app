@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
             to_currency: toCurrency
         },
         headers: {
-            'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+            'X-RapidAPI-Key': '8baf7365e7msh3eb4339a977c6c2p13214ejsn2bd14aceccb4'
             'X-RapidAPI-Host': 'alpha-vantage.p.rapidapi.com'
         }
     };
