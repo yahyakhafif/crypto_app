@@ -19,7 +19,7 @@ const CurrencyConverter = () => {
 
         const options = {
             method: 'GET',
-            url: 'https://alpha-vantage.p.rapidapi.com/query',
+            url: 'https://crypto-server-gamma.vercel.app/',
             params: {
                 from_currency: primaryCurrency,
                 function: 'CURRENCY_EXCHANGE_RATE',
