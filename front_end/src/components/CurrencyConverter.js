@@ -19,7 +19,7 @@ const CurrencyConverter = () => {
 
         const options = {
             method: 'GET',
-            url: 'https://crypto-server-gamma.vercel.app/',
+            url: 'https://crypto-dashboard-d8u5.onrender.com',
             params: {
                 from_currency: primaryCurrency,
                 function: 'CURRENCY_EXCHANGE_RATE',
